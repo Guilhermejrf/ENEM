@@ -1,0 +1,113 @@
+@media (max-width: 1040px) {
+  .toolbar,
+  .content-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-group {
+    justify-content: flex-start;
+  }
+
+  .side-rail {
+    position: static;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
+  }
+
+  .side-panel:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 820px) {
+  .hero__inner,
+  .progress-inner,
+  .app-shell {
+    width: min(100% - 28px, 1180px);
+  }
+
+  .hero-metrics,
+  .dashboard {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .chart-panel {
+    grid-column: 1 / -1;
+  }
+
+  .side-rail {
+    grid-template-columns: 1fr;
+  }
+
+  .week summary {
+    grid-template-columns: 1fr;
+  }
+
+  .week-progress {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero__inner {
+    padding-bottom: 36px;
+  }
+
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .hero__content {
+    padding-top: 32px;
+  }
+
+  .hero-metrics,
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .progress-inner {
+    gap: 8px;
+  }
+
+  .progress-label {
+    display: none;
+  }
+
+  .filter-group {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filter-chip {
+    padding-inline: 8px;
+  }
+
+  .section-heading,
+  .panel-heading,
+  .day-header,
+  .card-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .study-card {
+    grid-template-columns: 1fr;
+  }
+
+  .check-wrap {
+    place-items: start;
+  }
+
+  .bar-row {
+    grid-template-columns: 88px 1fr 38px;
+    font-size: .82rem;
+  }
+
+  .calendar-day {
+    min-height: 38px;
+    padding: 4px;
+  }
+}

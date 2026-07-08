@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3d1f5c">
+  <title>Planner ENEM + IFPE</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="css/cards.css?v=4">
+  <link rel="stylesheet" href="css/calendar.css?v=4">
+  <link rel="stylesheet" href="css/responsive.css?v=4">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <nav class="topbar" aria-label="Navegação principal">
+        <a class="brand" href="#top" aria-label="Planner ENEM e IFPE">Planner 760+</a>
+        <div class="topbar__actions">
+          <button class="icon-btn" id="themeToggle" type="button" aria-label="Alternar modo escuro" title="Modo escuro">◐</button>
+          <button class="ghost-btn" id="installBtn" type="button" hidden>Instalar</button>
+        </div>
+      </nav>
+
+      <div class="hero__content" id="top">
+        <p class="eyebrow">ENEM + IFPE · Engenharia da Computação</p>
+        <h1>Planner de estudos para meta 760+</h1>
+        <p class="hero__subtitle">
+          Cronograma reorganizado por prioridade, TRI, retorno por hora e treino contínuo de redação, questões, revisão e simulados.
+        </p>
+
+        <div class="hero-metrics" id="heroMetrics" aria-live="polite">
+          <div>
+            <strong>0%</strong>
+            <span>progresso geral</span>
+          </div>
+          <div>
+            <strong>--</strong>
+            <span>dias até o ENEM</span>
+          </div>
+          <div>
+            <strong>--</strong>
+            <span>dias até o IFPE</span>
+          </div>
+          <div>
+            <strong>760+</strong>
+            <span>meta de nota</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="progress-sticky">
+    <div class="progress-inner">
+      <span class="progress-label">Progresso</span>
+      <div class="progress-track" aria-hidden="true">
+        <div class="progress-fill" id="globalProgress"></div>
+      </div>
+      <strong class="progress-pct" id="globalProgressText">0%</strong>
+      <button class="jump-btn" id="jumpToday" type="button">Hoje</button>
+    </div>
+  </div>
+
+  <main class="app-shell">
+    <section class="toolbar" aria-label="Busca e filtros">
+      <label class="search-box">
+        <span>Buscar</span>
+        <input id="searchInput" type="search" placeholder="conteúdo, disciplina ou tema">
+      </label>
+
+      <div class="filter-group" id="filterGroup" role="list" aria-label="Filtros">
+        <button class="filter-chip is-active" type="button" data-filter="todos">Todos</button>
+        <button class="filter-chip" type="button" data-filter="pendentes">Pendentes</button>
+        <button class="filter-chip" type="button" data-filter="concluidos">Concluídos</button>
+        <button class="filter-chip" type="button" data-filter="revisoes">Revisões</button>
+        <button class="filter-chip" type="button" data-filter="redacoes">Redações</button>
+        <button class="filter-chip" type="button" data-filter="simulados">Simulados</button>
+      </div>
+    </section>
+
+    <section class="dashboard" id="dashboard" aria-label="Dashboard"></section>
+
+    <section class="content-layout">
+      <section class="planner-section" aria-labelledby="plannerTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow muted">Cronograma dinâmico</p>
+            <h2 id="plannerTitle">Semanas de estudo</h2>
+          </div>
+          <span class="result-count" id="resultCount">0 itens</span>
+        </div>
+        <div id="plannerWeeks" class="weeks"></div>
+      </section>
+
+      <aside class="side-rail" aria-label="Calendário e sincronização">
+        <section class="side-panel">
+          <div class="panel-heading">
+            <h2>Calendário</h2>
+            <div class="month-actions">
+              <button class="icon-btn" id="prevMonth" type="button" aria-label="Mês anterior">‹</button>
+              <button class="icon-btn" id="nextMonth" type="button" aria-label="Próximo mês">›</button>
+            </div>
+          </div>
+          <div id="calendar"></div>
+        </section>
+
+        <section class="side-panel">
+          <div class="panel-heading">
+            <h2>Revisões</h2>
+          </div>
+          <div id="reviewList" class="review-list"></div>
+        </section>
+
+        <section class="side-panel">
+          <div class="panel-heading">
+            <h2>Sincronização</h2>
+          </div>
+          <form id="syncForm" class="sync-form">
+            <label>
+              <span>GitHub token</span>
+              <input id="gistToken" type="password" autocomplete="off" placeholder="ghp_...">
+            </label>
+            <label>
+              <span>Gist ID</span>
+              <input id="gistId" type="text" autocomplete="off" placeholder="id do gist privado">
+            </label>
+            <label class="sync-toggle">
+              <input id="autoSync" type="checkbox" checked>
+              <span>Sincronizar automaticamente</span>
+            </label>
+            <div class="sync-actions">
+              <button class="ghost-btn" type="submit">Salvar</button>
+              <button class="ghost-btn" id="syncPush" type="button">Enviar</button>
+              <button class="ghost-btn" id="syncPull" type="button">Baixar</button>
+            </div>
+            <p class="sync-status" id="syncStatus" aria-live="polite"></p>
+          </form>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <script type="module" src="js/app.js?v=4"></script>
+</body>
+</html>

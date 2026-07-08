@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-07-08T13:03:11.757Z",
+  "scope": "ativo-ate-ifpe",
+  "totals": {
+    "conteudos": 327,
+    "originais": 294,
+    "gerados": 32,
+    "divididos": 1,
+    "concluidosIniciais": 2,
+    "backlogPosIfpe": 303,
+    "totalPreservado": 630,
+    "horasPlanejadas": 327,
+    "questoesSugeridas": 6637,
+    "redacoes": 17,
+    "simulados": 19,
+    "revisoesPlanejadas": 49
+  },
+  "byDiscipline": {
+    "Biologia": {
+      "total": 69,
+      "minutes": 4070,
+      "questions": 1118
+    },
+    "Química": {
+      "total": 57,
+      "minutes": 2885,
+      "questions": 1110
+    },
+    "Matemática": {
+      "total": 27,
+      "minutes": 1855,
+      "questions": 720
+    },
+    "Prática Enem/IF": {
+      "total": 90,
+      "minutes": 6195,
+      "questions": 2244
+    },
+    "Redação": {
+      "total": 30,
+      "minutes": 2220,
+      "questions": 182
+    },
+    "História": {
+      "total": 1,
+      "minutes": 40,
+      "questions": 0
+    },
+    "Física": {
+      "total": 52,
+      "minutes": 2340,
+      "questions": 1248
+    },
+    "Gramática": {
+      "total": 1,
+      "minutes": 40,
+      "questions": 15
+    }
+  },
+  "byArea": {
+    "Ciências da Natureza": {
+      "total": 178,
+      "minutes": 9295,
+      "questions": 3476
+    },
+    "Matemática": {
+      "total": 27,
+      "minutes": 1855,
+      "questions": 720
+    },
+    "Prática": {
+      "total": 90,
+      "minutes": 6195,
+      "questions": 2244
+    },
+    "Redação": {
+      "total": 30,
+      "minutes": 2220,
+      "questions": 182
+    },
+    "Ciências Humanas": {
+      "total": 1,
+      "minutes": 40,
+      "questions": 0
+    },
+    "Linguagens": {
+      "total": 1,
+      "minutes": 40,
+      "questions": 15
+    }
+  }
+}

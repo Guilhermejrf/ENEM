@@ -1,0 +1,65 @@
+{
+  "note": "Pesos estrategicos internos para priorizar retorno por hora. O ENEM nao publica peso fixo por conteudo; ajuste conforme o curso/instituicao.",
+  "targetCourse": "Engenharia da Computação",
+  "targetScore": 760,
+  "areas": {
+    "Matemática": {
+      "strategicWeight": 5,
+      "reason": "Maior retorno para curso de exatas e alta sensibilidade de TRI quando acertos consistentes."
+    },
+    "Ciências da Natureza": {
+      "strategicWeight": 5,
+      "reason": "Física, Química e Biologia sustentam a competitividade para engenharia."
+    },
+    "Redação": {
+      "strategicWeight": 5,
+      "reason": "Nota com alto impacto e treino semanal mensurável."
+    },
+    "Linguagens": {
+      "strategicWeight": 3,
+      "reason": "Base para interpretação, gramática e prova do primeiro dia."
+    },
+    "Ciências Humanas": {
+      "strategicWeight": 2,
+      "reason": "Mantida com menor carga relativa, focada em recorrências."
+    },
+    "Prática": {
+      "strategicWeight": 4,
+      "reason": "Questões, simulados e correção fecham o ciclo de aprendizagem."
+    }
+  },
+  "highYieldThemes": {
+    "Matemática": [
+      "Funções",
+      "Porcentagem",
+      "Geometria",
+      "Probabilidade",
+      "Análise combinatória",
+      "Trigonometria",
+      "Estatística"
+    ],
+    "Física": [
+      "Cinemática",
+      "Dinâmica",
+      "Energia",
+      "Eletricidade",
+      "Óptica",
+      "Ondulatória"
+    ],
+    "Química": [
+      "Estequiometria",
+      "Soluções",
+      "Eletroquímica",
+      "Orgânica",
+      "Ligações",
+      "Funções orgânicas"
+    ],
+    "Biologia": [
+      "Ecologia",
+      "Genética",
+      "Citologia",
+      "Fisiologia",
+      "Evolução"
+    ]
+  }
+}

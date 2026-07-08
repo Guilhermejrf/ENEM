@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Planner 760+">
+  <rect width="512" height="512" rx="96" fill="#3d1f5c"/>
+  <path d="M122 154c0-25 20-45 45-45h178c25 0 45 20 45 45v230H122V154Z" fill="#fffaf4"/>
+  <path d="M162 178h188M162 226h188M162 274h122" stroke="#6d48a0" stroke-width="22" stroke-linecap="round"/>
+  <path d="M165 344l45 42 132-145" fill="none" stroke="#c2185b" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="166" cy="126" r="26" fill="#f1c863"/>
+  <circle cx="346" cy="126" r="26" fill="#f1c863"/>
+</svg>

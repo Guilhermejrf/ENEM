@@ -1,0 +1,138 @@
+[
+  {
+    "date": "2026-09-04",
+    "dateText": "04 de setembro de 2026",
+    "weekday": "Sexta",
+    "name": "Emancipação Política de Paulista",
+    "type": "feriado municipal",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-09-07",
+    "dateText": "07 de setembro de 2026",
+    "weekday": "Segunda",
+    "name": "Independência do Brasil",
+    "type": "feriado nacional",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-10-12",
+    "dateText": "12 de outubro de 2026",
+    "weekday": "Segunda",
+    "name": "Nossa Sra. Aparecida",
+    "type": "feriado nacional",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-10-28",
+    "dateText": "28 de outubro de 2026",
+    "weekday": "Quarta",
+    "name": "Dia do Servidor Público",
+    "type": "ponto facultativo",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-10-31",
+    "dateText": "31 de outubro de 2026",
+    "weekday": "Sábado",
+    "name": "Dia da Consciência Evangélica",
+    "type": "ponto facultativo",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-11-02",
+    "dateText": "02 de novembro de 2026",
+    "weekday": "Segunda",
+    "name": "Finados",
+    "type": "feriado nacional",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-11-15",
+    "dateText": "15 de novembro de 2026",
+    "weekday": "Domingo",
+    "name": "Proclamação da República",
+    "type": "feriado nacional",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-11-20",
+    "dateText": "20 de novembro de 2026",
+    "weekday": "Sexta",
+    "name": "Consciência Negra",
+    "type": "feriado nacional",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-12-08",
+    "dateText": "08 de dezembro de 2026",
+    "weekday": "Terça",
+    "name": "Nossa Sra. da Conceição",
+    "type": "ponto facultativo municipal",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-12-24",
+    "dateText": "24 de dezembro de 2026",
+    "weekday": "Quinta",
+    "name": "Véspera de Natal",
+    "type": "ponto facultativo",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-12-25",
+    "dateText": "25 de dezembro de 2026",
+    "weekday": "Sexta",
+    "name": "Natal",
+    "type": "feriado nacional",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2026-12-31",
+    "dateText": "31 de dezembro de 2026",
+    "weekday": "Quinta",
+    "name": "Véspera de Ano Novo",
+    "type": "ponto facultativo",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2027-01-01",
+    "dateText": "01 de janeiro de 2027",
+    "weekday": "Sexta",
+    "name": "Confraternização Universal",
+    "type": "feriado nacional",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2027-02-08",
+    "dateText": "08 de fevereiro de 2027",
+    "weekday": "Segunda",
+    "name": "Carnaval (segunda)",
+    "type": "ponto facultativo",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2027-02-09",
+    "dateText": "09 de fevereiro de 2027",
+    "weekday": "Terça",
+    "name": "Carnaval (terça)",
+    "type": "ponto facultativo",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2027-02-10",
+    "dateText": "10 de fevereiro de 2027",
+    "weekday": "Quarta",
+    "name": "Quarta-feira de Cinzas",
+    "type": "feriado municipal (Paulista)",
+    "source": "cronograma-original"
+  },
+  {
+    "date": "2027-03-06",
+    "dateText": "06 de março de 2027",
+    "weekday": "Sábado",
+    "name": "Data Magna de Pernambuco",
+    "type": "feriado estadual",
+    "source": "cronograma-original"
+  }
+]

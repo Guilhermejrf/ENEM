@@ -1,0 +1,18 @@
+{
+  "name": "Planner ENEM + IFPE 760+",
+  "short_name": "Planner 760+",
+  "description": "Planner de estudos para ENEM e IFPE focado em Engenharia da Computação.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf7f1",
+  "theme_color": "#3d1f5c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

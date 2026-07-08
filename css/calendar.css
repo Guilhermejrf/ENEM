@@ -1,0 +1,108 @@
+.calendar-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.calendar-title {
+  color: var(--purple);
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+}
+
+.calendar-weekday {
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.calendar-day {
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--paper-strong);
+  color: var(--ink);
+  padding: 5px;
+}
+
+.calendar-day.is-muted {
+  opacity: .38;
+}
+
+.calendar-day.is-today {
+  border-color: var(--pink);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--pink) 18%, transparent);
+}
+
+.calendar-day strong {
+  display: block;
+  font-size: .78rem;
+  line-height: 1;
+}
+
+.calendar-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 7px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--muted);
+}
+
+.dot.study {
+  background: var(--purple-2);
+}
+
+.dot.done {
+  background: var(--green);
+}
+
+.dot.pending {
+  background: var(--gold);
+}
+
+.dot.review {
+  background: var(--pink);
+}
+
+.dot.simulado {
+  background: var(--blue);
+}
+
+.dot.exam {
+  background: #111827;
+}
+
+:root[data-theme="dark"] .dot.exam {
+  background: #fff;
+}
+
+.calendar-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  color: var(--ink-soft);
+  font-size: .78rem;
+}
+
+.calendar-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}

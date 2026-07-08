@@ -1,0 +1,98 @@
+[
+  {
+    "nome": "Redação",
+    "area": "Redação",
+    "color": "#A8174E",
+    "strategicWeight": 5,
+    "basePriority": 102,
+    "targetShare": 12
+  },
+  {
+    "nome": "Matemática",
+    "area": "Matemática",
+    "color": "#1A3C8C",
+    "strategicWeight": 5,
+    "basePriority": 98,
+    "targetShare": 20
+  },
+  {
+    "nome": "Física",
+    "area": "Ciências da Natureza",
+    "color": "#3E6E7A",
+    "strategicWeight": 5,
+    "basePriority": 92,
+    "targetShare": 13
+  },
+  {
+    "nome": "Química",
+    "area": "Ciências da Natureza",
+    "color": "#F57C00",
+    "strategicWeight": 5,
+    "basePriority": 90,
+    "targetShare": 13
+  },
+  {
+    "nome": "Biologia",
+    "area": "Ciências da Natureza",
+    "color": "#1B5E20",
+    "strategicWeight": 4,
+    "basePriority": 84,
+    "targetShare": 12
+  },
+  {
+    "nome": "Prática Enem/IF",
+    "area": "Prática",
+    "color": "#6B3FA0",
+    "strategicWeight": 4,
+    "basePriority": 80,
+    "targetShare": 10
+  },
+  {
+    "nome": "Gramática",
+    "area": "Linguagens",
+    "color": "#6B9A62",
+    "strategicWeight": 3,
+    "basePriority": 60,
+    "targetShare": 6
+  },
+  {
+    "nome": "Geografia",
+    "area": "Ciências Humanas",
+    "color": "#43A047",
+    "strategicWeight": 2,
+    "basePriority": 44,
+    "targetShare": 5
+  },
+  {
+    "nome": "História",
+    "area": "Ciências Humanas",
+    "color": "#C99A1E",
+    "strategicWeight": 2,
+    "basePriority": 42,
+    "targetShare": 5
+  },
+  {
+    "nome": "Filosofia",
+    "area": "Ciências Humanas",
+    "color": "#C2185B",
+    "strategicWeight": 1,
+    "basePriority": 34,
+    "targetShare": 2
+  },
+  {
+    "nome": "Sociologia",
+    "area": "Ciências Humanas",
+    "color": "#E0399A",
+    "strategicWeight": 1,
+    "basePriority": 34,
+    "targetShare": 2
+  },
+  {
+    "nome": "Artes & Lit.",
+    "area": "Linguagens",
+    "color": "#9C6B8A",
+    "strategicWeight": 2,
+    "basePriority": 38,
+    "targetShare": 3
+  }
+]
